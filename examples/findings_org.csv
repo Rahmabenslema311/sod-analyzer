@@ -1,0 +1,3 @@
+user_id,department,rule_id,inherent_severity,effective_severity,status,control,conflict,roles_involved
+U3001,Accounts Payable,SOD-01,Critical,Critical,Open,,PAYMENT_EXECUTE + VENDOR_MAINTAIN,"PAYER_1000, VENDOR_ADMIN_1000"
+U3003,Accounts Payable,SOD-01,Critical,Critical,Open,,PAYMENT_EXECUTE + VENDOR_MAINTAIN,"PAYER_ALL, VENDOR_ADMIN_1000"

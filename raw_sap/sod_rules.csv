@@ -1,0 +1,6 @@
+rule_id,required_permissions,severity,description,same_org
+SOD-01,VENDOR_MAINTAIN|PAYMENT_EXECUTE,Critical,Supplier manipulation and payment execution,Y
+SOD-02,PO_CREATE|GOODS_RECEIPT_POST,High,Purchasing and goods-receipt responsibilities combined,N
+SOD-03,CUSTOMER_MAINTAIN|CREDIT_MEMO_POST,High,Customer-record changes and credit adjustments,N
+SOD-04,JOURNAL_POST|PERIOD_CLOSE,High,Posting entries and closing the accounting period,N
+SOD-05,USER_ADMIN|AUDIT_LOG_DELETE,Critical,Managing accounts and deleting security evidence,N

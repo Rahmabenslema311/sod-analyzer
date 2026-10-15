@@ -1,0 +1,5 @@
+user_id,department,rule_id,inherent_severity,effective_severity,status,control,conflict,roles_involved
+U1002,Accounts Payable,SOD-01,Critical,Medium,Mitigated,CTL-PAY-01,PAYMENT_EXECUTE + VENDOR_MAINTAIN,"AP_MANAGER, VENDOR_ADMIN"
+U1004,Procurement,SOD-02,High,High,Exception expired,CTL-PRC-02,GOODS_RECEIPT_POST + PO_CREATE,"PROCUREMENT, WAREHOUSE"
+U1005,Finance,SOD-04,High,High,Open,,JOURNAL_POST + PERIOD_CLOSE,"FINANCE_CONTROLLER, GL_ACCOUNTANT"
+U1006,IT,SOD-05,Critical,Critical,Open,,AUDIT_LOG_DELETE + USER_ADMIN,"LOG_MANAGER, SYS_ADMIN"

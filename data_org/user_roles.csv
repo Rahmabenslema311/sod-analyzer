@@ -1,0 +1,7 @@
+user_id,department,role
+U3001,Accounts Payable,VENDOR_ADMIN_1000
+U3001,Accounts Payable,PAYER_1000
+U3002,Accounts Payable,VENDOR_ADMIN_1000
+U3002,Accounts Payable,PAYER_2000
+U3003,Accounts Payable,VENDOR_ADMIN_1000
+U3003,Accounts Payable,PAYER_ALL

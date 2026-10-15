@@ -1,0 +1,2 @@
+rule_id,required_permissions,severity,description,same_org
+SOD-01,VENDOR_MAINTAIN|PAYMENT_EXECUTE,Critical,Supplier manipulation and payment execution,Y

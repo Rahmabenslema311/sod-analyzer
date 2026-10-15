@@ -1,0 +1,39 @@
+{
+  "users_analyzed": 8,
+  "users_with_findings": 4,
+  "total_findings": 4,
+  "by_severity": {
+    "Medium": 1,
+    "High": 2,
+    "Critical": 1
+  },
+  "by_status": {
+    "Mitigated": 1,
+    "Exception expired": 1,
+    "Open": 2
+  },
+  "by_rule": {
+    "SOD-01": 1,
+    "SOD-02": 1,
+    "SOD-04": 1,
+    "SOD-05": 1
+  },
+  "riskiest_users": [
+    {
+      "user_id": "U1006",
+      "risk_score": 10
+    },
+    {
+      "user_id": "U1004",
+      "risk_score": 5
+    },
+    {
+      "user_id": "U1005",
+      "risk_score": 5
+    },
+    {
+      "user_id": "U1002",
+      "risk_score": 3
+    }
+  ]
+}
